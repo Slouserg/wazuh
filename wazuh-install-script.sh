@@ -15,7 +15,7 @@ function display_banner() {
 
 # Function to ask for the IP address
 function ask_for_ip() {
-    read -p "Enter the dashboard node LAN IP: " dashboard_ip
+    read -p "Enter the dashboard node Domain/FQDN: " dashboard_ip
     read -p "Enter the indexer node LAN IP: " indexer_ip
     read -p "Enter the Wazuh server (manager) LAN IP: " wazuh_manager_ip
     echo "dashboard node LAN IP: ${dashboard_ip}"
