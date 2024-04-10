@@ -36,7 +36,7 @@ if [ -e "config.yml" ]; then
 fi
 
 # Step 2: Download the new config.yml
-curl -o config.yml https://packages.wazuh.com/4.5/config.yml
+curl -o config.yml https://packages.wazuh.com/4.7.3/config.yml
 echo "New config.yml downloaded."
 
 # Step 3: Install Wazuh
@@ -44,7 +44,7 @@ echo "Installing the Wazuh indexer using the assistant"
 ask_for_ip
 echo "Installing... Please wait."
 
-curl -o wazuh-install.sh https://packages.wazuh.com/4.5/wazuh-install.sh
+curl -o wazuh-install.sh https://packages.wazuh.com/4.7.3/wazuh-install.sh
 
 # Replace IP placeholders in config.yml
 sed -i "s/<dashboard-node-ip>/${dashboard_ip}/" config.yml
@@ -55,11 +55,11 @@ bash wazuh-install.sh --generate-config-files
 bash wazuh-install.sh --wazuh-indexer node-1
 
 echo "Installing the Wazuh server using the assistant"
-curl -o wazuh-install.sh https://packages.wazuh.com/4.5/wazuh-install.sh
+curl -o wazuh-install.sh https://packages.wazuh.com/4.7.3/wazuh-install.sh
 bash wazuh-install.sh --wazuh-server wazuh-1
 
 echo "Installing the Wazuh dashboard using the assistant"
-curl -o wazuh-install.sh https://packages.wazuh.com/4.5/wazuh-install.sh
+curl -o wazuh-install.sh https://packages.wazuh.com/4.7.3/wazuh-install.sh
 bash wazuh-install.sh --wazuh-dashboard dashboard
 
 tar -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
