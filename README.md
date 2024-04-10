@@ -19,12 +19,14 @@ Ubuntu 16.04, 18.04, 20.04, 22.04
 
     You can clone this repository or download the script to your local machine.
 
-    ```curl -O https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
+    ```
+    curl -O https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
     ```
 
 Or
 
-    ```wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
+    ```
+    wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
     ```
     
 3. **Run the Script**
