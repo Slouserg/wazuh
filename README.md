@@ -18,14 +18,14 @@ Ubuntu 16.04, 18.04, 20.04, 22.04
 1. **Clone or Download the Script**
 
     You can clone this repository or download the script to your local machine.
-
-2. **Run the Script**
-
-    Make the script executable:
-
 ```curl -O https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh```
 Or
 ```wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh```
+
+3. **Run the Script**
+
+    Make the script executable:
+
 
     ```bash
     chmod +x wazuh-install-script.sh
@@ -37,13 +37,13 @@ Or
     ./wazuh-install-script.sh
     ```
 
-3. **Follow the Prompts**
+4. **Follow the Prompts**
 
     - The script will display LAN IP addresses for all available network interfaces.
     - You'll be prompted to enter the LAN IP addresses for the dashboard, indexer, and Wazuh manager.
     - The script will remove the existing `config.yml`, download the new one, and proceed with the installation using your provided IP addresses.
 
-4. **Access the Wazuh Web Interface**
+5. **Access the Wazuh Web Interface**
 
     After a successful installation, you can access the Wazuh dashboard by opening a web browser and navigating to the IP address of the server where you installed the Wazuh dashboard, using the appropriate port (usually 5601). Log in with the default credentials or the ones you configured during the installation process.
 
