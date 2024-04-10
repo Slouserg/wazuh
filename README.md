@@ -23,6 +23,10 @@ Ubuntu 16.04, 18.04, 20.04, 22.04
 
     Make the script executable:
 
+```curl -O https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh```
+Or
+```wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh```
+
     ```bash
     chmod +x wazuh-install-script.sh
     ```
