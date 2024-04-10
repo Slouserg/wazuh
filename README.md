@@ -1,6 +1,13 @@
 # Wazuh Installation Script
 
 This script automates the installation of Wazuh, an open-source security monitoring platform. It's designed to set up the Wazuh manager (server), Wazuh indexer, and Wazuh dashboard. The script is created by Knippin ICT and can be used to simplify the Wazuh installation process.
+## Recommended operating systems
+Wazuh can be installed on a 64-bit Linux operating system. Wazuh supports the following operating system versions:
+
+Amazon Linux 2
+CentOS 7, 8
+Red Hat Enterprise Linux 7, 8, 9
+Ubuntu 16.04, 18.04, 20.04, 22.04
 
 ## Prerequisites
 
