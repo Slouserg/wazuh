@@ -25,9 +25,9 @@ Ubuntu 16.04, 18.04, 20.04, 22.04
 
 Or
 
-    ```
+   
     wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
-    ```
+  
     
 3. **Run the Script**
 
