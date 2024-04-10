@@ -28,10 +28,6 @@ Or
     ```
     wget https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
     ```
-
-        ```
-    curl -O https://raw.githubusercontent.com/Slouserg/wazuh/main/wazuh-install-script.sh
-    ```
     
 3. **Run the Script**
 
